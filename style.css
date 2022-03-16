@@ -26,12 +26,12 @@
   #mainStyle {
     background-color: rgb(221, 163, 39);
   }
- /* 
   main li {
-    float: left;
-    margin: 30px 30px 30px 30px;
+    position: absolute;
+    top: 40px; left: 40px;
+    margin: 50px 50px 50px 50px;
   }
-  
+ /* 
   footer {
     clear: both;
     height: 250px;
