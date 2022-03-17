@@ -12,26 +12,30 @@
   h1 {
     color:rgba(206, 66, 206, 0.432);
     font-size: 40px;
-    margin-left: 5%px;
-    margin-top: 5%px;
+    margin-left: 5px;
+    margin-top: 5px;
   }
   header a {
     color: rgba(175, 165, 135, 0.959);
   }
   nav li {
     display: inline-block;
-    margin-right: 50%px;
+    margin-right: 50px;
     margin-top: 25px;
   }
+ul {
+  list-style-type: none;
+}
+
+
   #mainStyle {
     background-color: rgb(221, 163, 39);
   }
   main li {
-    position: absolute;
+    /* position: absolute; */
     top: 40px; right: 40px;
     margin: 50px 50px 50px 50px;
   }
- /* 
   footer {
     clear: both;
     height: 250px;
@@ -43,4 +47,3 @@
     display: block;
     margin: auto;
   }
-  */
