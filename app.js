@@ -23,7 +23,7 @@ alert('Welcome ' + userName);
 
 //ask what time is it? 
 //variable assignment and declaration
-let help = prompt('How can I help you, + userName?');
+let help = prompt('Do you need help, ' + userName + '?');
 console.log('Do you need help',help);
 
 //have some logic to respond to the user.
@@ -36,7 +36,7 @@ console.log('Do you need help',help);
 // }
 
 // variable declaration creates locaiton in memory so i can store one of the messages below.
-// let message;
+let message;
 
 if('yes' || 'YES' || 'Yes'){
   message = 'Do you need the phone number?';
@@ -44,9 +44,9 @@ if('yes' || 'YES' || 'Yes'){
   message = 'Do you need address?';
 } else if ('maybe' || 'MAYBE' || 'Maybe'){
   message = 'Good Evening';
-// } else {
-//   message = 'Your input does not work for a time.';
-// } 
+} else {
+  message = 'Your input does not work for a time.';
+} 
 
 // //this will output the message variable with the assigned value based on the if else conditional.
 // // console.log('This is the if output ', message);
@@ -55,4 +55,4 @@ if('yes' || 'YES' || 'Yes'){
 // //out put the users response to the page. 
 
 
-// document.write('Hello ' + userName +  '! '   + message);
+document.write('Hello ' + userName +  '! '   + message);
