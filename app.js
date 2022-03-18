@@ -1,9 +1,9 @@
 'use strict';
 console.log('I\'m hustling.');
+let userName;
 
-function userName(){  
-  let userName = prompt('What is your name?');
-
+function getUserInput(){  
+  userName = prompt('What is your name?');
   console.log(userName);
 }
 
