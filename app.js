@@ -50,7 +50,7 @@ function displayRating(){
   let rating = prompt('On a scale of 1-5, how many stars?');
 
   for(let i = 0; i < rating; i = i + 1){
-   output = output +  '<img src="images/star.png" height="50px" width="50px">';
+   output = output +  '<img src="images/pawprint.png" height="50px" width="50px">';
   }
    return document.write(output);
 }
