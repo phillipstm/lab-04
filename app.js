@@ -22,7 +22,24 @@ function phoneNumber(){
     alert('Ok, Thank You have a nice day');
   
   }
+  
+  
+//declaring a function and giving it a name so that we can call this group of instruction
+function guessANumber(){
+  //declare a variable
+  let answer;
+//while loop example
+ do {
+   answer = prompt('Guess a number between 1-10');
+   if(answer != 3){
+     alert('try again!');
+   } else {
+     alert('you are correct!');
+   }
+//in a do while loop the 'do' always run first no matter what. 
+ } while(answer != 3)
+
+
+
+
 }
-
-
-
