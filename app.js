@@ -39,6 +39,10 @@ function guessANumber() {
 		}
 		//in a do while loop the 'do' always run first no matter what. 
 	} while (answer != 3);
+
+	{
+	    guessANumber();
+	}
 }
 
 
